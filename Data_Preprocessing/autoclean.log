@@ -1,0 +1,38 @@
+19-05-2024 19:48:48.24 - INFO - Started validation of input parameters...
+19-05-2024 19:48:48.24 - INFO - Completed validation of input parameters
+19-05-2024 19:48:48.24 - INFO - Started handling of duplicates... Method: "AUTO"
+19-05-2024 19:48:48.26 - DEBUG - 0 missing values found
+19-05-2024 19:48:48.26 - INFO - Completed handling of duplicates in 0.013987 seconds
+19-05-2024 19:48:48.26 - INFO - Started handling of missing values...
+19-05-2024 19:48:48.26 - INFO - Found a total of 2079 missing value(s)
+19-05-2024 19:48:48.27 - INFO - Started handling of NUMERICAL missing values... Method: "AUTO"
+19-05-2024 19:48:48.34 - INFO - Started handling of CATEGORICAL missing values... Method: "AUTO"
+19-05-2024 19:48:49.67 - DEBUG - KNN imputation of 693 value(s) succeeded for feature "Item_Description"
+19-05-2024 19:48:50.13 - DEBUG - KNN imputation of 693 value(s) succeeded for feature "Product_type"
+19-05-2024 19:48:50.58 - DEBUG - KNN imputation of 693 value(s) succeeded for feature "Vehicle1"
+19-05-2024 19:48:50.58 - INFO - Completed handling of missing values in 2.327967 seconds
+19-05-2024 19:48:50.58 - INFO - Started handling of outliers... Method: "WINZ"
+19-05-2024 19:48:50.61 - INFO - Completed handling of outliers in 0.028084 seconds
+19-05-2024 19:48:50.61 - INFO - Started conversion of DATETIME features... Granularity: s
+19-05-2024 19:48:50.74 - DEBUG - Conversion to DATETIME succeeded for feature "Date"
+19-05-2024 19:48:50.75 - INFO - Completed conversion of DATETIME features in 0.1404 seconds
+19-05-2024 19:48:50.75 - INFO - Started encoding categorical features... Method: "AUTO"
+19-05-2024 19:48:50.75 - DEBUG - Encoding skipped for feature "Customer_Name"
+19-05-2024 19:48:50.76 - DEBUG - Encoding skipped for feature "Product_type"
+19-05-2024 19:48:50.77 - DEBUG - Encoding skipped for feature "Vehicle1"
+19-05-2024 19:48:50.77 - DEBUG - Encoding skipped for feature "KIT_ITEM"
+19-05-2024 19:48:50.78 - DEBUG - Encoding skipped for feature "Item_Description"
+19-05-2024 19:48:50.78 - DEBUG - Encoding skipped for feature "OEM"
+19-05-2024 19:48:50.79 - DEBUG - Encoding to LABEL succeeded for feature "Item_Code"
+19-05-2024 19:48:50.81 - DEBUG - Skipped encoding for DATETIME feature "Date"
+19-05-2024 19:48:50.81 - INFO - Completed encoding of categorical features in 0.051022 seconds
+19-05-2024 19:48:50.81 - INFO - Started feature type conversion...
+19-05-2024 19:48:50.81 - DEBUG - Conversion to type INT succeeded for feature "Customer_Code"
+19-05-2024 19:48:50.83 - DEBUG - Conversion to type FLOAT succeeded for feature "No_of_kits"
+19-05-2024 19:48:50.86 - DEBUG - Conversion to type FLOAT succeeded for feature "value_log"
+19-05-2024 19:48:50.86 - DEBUG - Conversion to type INT succeeded for feature "Day"
+19-05-2024 19:48:50.87 - DEBUG - Conversion to type INT succeeded for feature "Month"
+19-05-2024 19:48:50.87 - DEBUG - Conversion to type INT succeeded for feature "Year"
+19-05-2024 19:48:50.87 - DEBUG - Conversion to type INT succeeded for feature "Item_Code_lab"
+19-05-2024 19:48:50.87 - INFO - Completed feature type conversion for 7 feature(s) in 0.063861 seconds
+19-05-2024 19:48:50.87 - INFO - AutoClean process completed in 2.63776 seconds
